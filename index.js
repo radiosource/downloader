@@ -34,8 +34,6 @@ class Downloader {
   }
 }
 
-(async()=>{
-  const x = new Downloader('/home/zagnit/');
-  await x.download({downloadLink: 'https://coubsecure-s.akamaihd.net/get/b31/p/coub/simple/cw_video_for_sharing/7ed4e938910/f5591eba05f53cb2fe86e/1580282505_looped_1580282503.mp4?dl=1'});
-})();
+module.exports = Downloader;
+module.exports.default = Downloader;
 
