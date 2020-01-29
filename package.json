@@ -1,0 +1,31 @@
+{
+  "version": "0.1.0",
+  "author": {
+    "name": "Oleh Zahnitko"
+  },
+  "bugs": {
+    "url": "https://github.com/radiosource/downloader/issues"
+  },
+  "dependencies": {
+    "axios": "0.19.2"
+  },
+  "deprecated": false,
+  "description": "Easy promise based client for downloading files from url using Node.js",
+  "devDependencies": {},
+  "homepage": "https://github.com/radiosource/downloader/",
+  "keywords": [
+    "download",
+    "file",
+    "from",
+    "url",
+    "promise"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "downloader.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radiosource/downloader/"
+  },
+  "scripts": {}
+}
