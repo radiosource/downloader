@@ -9,6 +9,7 @@ $ npm install downloader.js
 ## Example
 
 ```js
+const Downloader = require('downloader.js');
 const file = new Downloader('/home/downloads/');
 await file.download({downloadLink: 'https://coubsecure-s.akamaihd.net/get/b31/p/coub/simple/cw_video_for_sharing/7ed4e938910/f5591eba05f53cb2fe86e/1580282505_looped_1580282503.mp4'})
           .catch(console.error);
