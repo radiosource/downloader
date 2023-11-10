@@ -7,7 +7,7 @@
     "url": "https://github.com/radiosource/downloader/issues"
   },
   "dependencies": {
-    "axios": "0.19.2"
+    "axios": "1.6.0"
   },
   "deprecated": false,
   "description": "Easy promise based client for downloading files from url using Node.js",
